@@ -49,7 +49,7 @@ const Login = async (req, res, next) => {
             res.send(responseCreator( `${username} logged succesfully`, 200,userData));
         } 
         else{
-           errorCreator('Invalid password ! Enter Correct password ', 401);
+           errorCreator('Invalid password !!! Enter Correct password ', 401);
         }
     }
     catch (error) {
